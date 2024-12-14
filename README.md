@@ -34,7 +34,7 @@ This program reads JSON data from a text file, generates QR codes for each entry
 1. Create a `qrcodes.txt` file in the project root directory with your JSON data. Each line should contain a JSON object with the following format:
 
     ```json
-    { "unique_id": "your-unique-id", "batch_id": number }
+    { "unique_id": "your-unique-id", "batch_id": 1 }
     ```
 
     A sample file (`qrcodes_sample.txt`) is provided for reference, showing the expected data format:
