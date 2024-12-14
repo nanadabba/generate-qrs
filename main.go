@@ -14,9 +14,9 @@ import (
 )
 
 type QRData struct {
-	UniqueID  string `json:"unique_id"`
-	BatchID   int    `json:"batch_id"`
-	DviceName string `json:"device_name"`
+	UniqueID   string `json:"uniqueId"`
+	BatchID    int    `json:"batchId"`
+	DeviceName string `json:"deviceName"`
 }
 
 func main() {
